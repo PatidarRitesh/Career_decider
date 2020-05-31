@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>pro</display-name>
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>ADMIN</servlet-name>
+        <servlet-class>controller.ADMIN</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>profile</servlet-name>
+        <servlet-class>controller.profile</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>update</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ADMIN</servlet-name>
+        <url-pattern>/iamadmin</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>userlogin</servlet-name>
+        <servlet-class>controller.userlogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>userlogout</servlet-name>
+        <servlet-class>controller.userlogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminlogin</servlet-name>
+        <servlet-class>controller.userlogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminlogout</servlet-name>
+        <servlet-class>controller.adminlogout</servlet-class>
+    </servlet>
+</web-app>

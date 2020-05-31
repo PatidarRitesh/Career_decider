@@ -1,0 +1,21 @@
+SMAP
+choice_jsp.java
+JSP
+*S JSP
+*F
++ 0 choice.jsp
+choice.jsp
++ 1 head.jsp
+head.jsp
++ 2 foot.jsp
+foot.jsp
+*L
+1:50
+3,4:52
+6:56
+1#1,15:57
+7#0,38:71
+45:109,3
+46,10:112
+1#2,14:121
+*E
